@@ -8,7 +8,7 @@ We're assuming that you have Dropbox setup to sync your Day One. I mean, who wou
 0. Download the OhLife export at <https://ohlife.com/export>.
 1. Download Command Line Interface found at <http://dayoneapp.com/tools/>
 2. Clone this package or click [here](https://github.com/srtfisher/ohlife-to-day-one/archive/master.zip) to download the ZIP. Extract the zip.
-3. Change the path of the `$file` variable inside of `oh_life_to_dayone.php` as well as the Journal Path if your Dropbox is in a different folder.
+3. Change the path of the `$file` variable inside of `oh_life_to_dayone.php` to the path/to/the/TXT file that you downloaded from OhLife. You should also change the Journal Path (where you sync your Day One) if your Dropbox is in a different folder.
 4. Run `php ohlife_to_dayone.php`
 
 You should be seeing success messages from Day One confirming the import of your posts.
